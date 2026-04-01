@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Server Dashboard</title>
+</head>
+<body>
+    {% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<h2>📊 Dashboard</h2>
+
+<div class="cards">
+    <div class="card">📁 Files<br><strong>{{ storage.file_count }}</strong></div>
+    <div class="card">💾 Storage<br><strong>{{ storage.total_size }} bytes</strong></div>
+    <div class="card">⬆ Uploads<br><strong>{{ uploads }}</strong></div>
+    <div class="card">⬇ Downloads<br><strong>{{ downloads }}</strong></div>
+    <div class="card">🗑 Deletes<br><strong>{{ deletes }}</strong></div>
+</div>
+
+<h3>🕒 Recent Activity</h3>
+<ul class="activity">
+    {% for line in activity %}
+        <li>{{ line }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
+
+</body>
+</html>

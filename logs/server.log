@@ -1,0 +1,384 @@
+2025-12-15 19:04:15,347 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.226:5000
+2025-12-15 19:04:15,347 | INFO | [33mPress CTRL+C to quit[0m
+2025-12-15 19:04:15,410 | INFO |  * Restarting with stat
+2025-12-15 19:04:16,057 | WARNING |  * Debugger is active!
+2025-12-15 19:04:16,353 | INFO |  * Debugger PIN: 855-374-315
+2025-12-15 19:04:58,045 | INFO | 192.168.29.226 - - [15/Dec/2025 19:04:58] "GET / HTTP/1.1" 200 -
+2025-12-15 19:05:02,943 | INFO | 192.168.29.226 - - [15/Dec/2025 19:05:02] "GET / HTTP/1.1" 200 -
+2025-12-15 19:05:03,995 | INFO | 192.168.29.226 - - [15/Dec/2025 19:05:03] "GET / HTTP/1.1" 200 -
+2025-12-15 19:05:21,395 | INFO | 192.168.29.226 - - [15/Dec/2025 19:05:21] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-12-15 19:05:21,412 | INFO | 192.168.29.226 - - [15/Dec/2025 19:05:21] "GET / HTTP/1.1" 200 -
+2025-12-15 19:05:24,481 | INFO | File downloaded: ScopeyTheDopey-Mopey_1.4.4_22.wld
+2025-12-15 19:05:24,505 | INFO | 192.168.29.226 - - [15/Dec/2025 19:05:24] "GET /download/ScopeyTheDopey-Mopey_1.4.4_22.wld HTTP/1.1" 200 -
+2025-12-15 19:05:45,321 | INFO | File deleted: ScopeyTheDopey-Mopey_1.4.4_22.wld
+2025-12-15 19:05:45,321 | INFO | 192.168.29.226 - - [15/Dec/2025 19:05:45] "[32mPOST /delete/ScopeyTheDopey-Mopey_1.4.4_22.wld HTTP/1.1[0m" 302 -
+2025-12-15 19:05:45,682 | INFO | 192.168.29.226 - - [15/Dec/2025 19:05:45] "GET / HTTP/1.1" 200 -
+2025-12-15 19:17:55,534 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.226:5000
+2025-12-15 19:17:55,534 | INFO | [33mPress CTRL+C to quit[0m
+2025-12-15 19:17:55,572 | INFO |  * Restarting with stat
+2025-12-15 19:17:55,805 | WARNING |  * Debugger is active!
+2025-12-15 19:17:55,892 | INFO |  * Debugger PIN: 855-374-315
+2025-12-15 19:18:03,084 | INFO | 192.168.29.226 - - [15/Dec/2025 19:18:03] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-15 19:18:03,118 | INFO | 192.168.29.226 - - [15/Dec/2025 19:18:03] "GET /login HTTP/1.1" 200 -
+2025-12-15 19:18:04,207 | INFO | 192.168.29.226 - - [15/Dec/2025 19:18:04] "GET /login HTTP/1.1" 200 -
+2025-12-15 19:18:09,388 | INFO | 192.168.29.226 - - [15/Dec/2025 19:18:09] "POST /login HTTP/1.1" 200 -
+2025-12-15 19:18:31,115 | INFO | 192.168.29.226 - - [15/Dec/2025 19:18:31] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-15 19:18:31,143 | INFO | 192.168.29.226 - - [15/Dec/2025 19:18:31] "GET / HTTP/1.1" 200 -
+2025-12-15 19:18:43,040 | INFO | 192.168.29.226 - - [15/Dec/2025 19:18:43] "GET / HTTP/1.1" 200 -
+2025-12-15 19:18:46,365 | INFO | 192.168.29.226 - - [15/Dec/2025 19:18:46] "GET /login HTTP/1.1" 200 -
+2025-12-15 19:21:19,647 | INFO |  * Detected change in '/home/admin1/Ragu/Server/config/settings.py', reloading
+2025-12-15 19:21:19,713 | INFO |  * Restarting with stat
+2025-12-15 19:21:19,946 | WARNING |  * Debugger is active!
+2025-12-15 19:21:19,951 | INFO |  * Debugger PIN: 855-374-315
+2025-12-15 19:22:27,196 | INFO |  * Detected change in '/home/admin1/Ragu/Server/auth/auth_routes.py', reloading
+2025-12-15 19:22:27,252 | INFO |  * Restarting with stat
+2025-12-15 19:22:27,487 | WARNING |  * Debugger is active!
+2025-12-15 19:22:27,492 | INFO |  * Debugger PIN: 855-374-315
+2025-12-15 19:25:11,073 | INFO |  * Detected change in '/home/admin1/Ragu/Server/services/file_service.py', reloading
+2025-12-15 19:25:11,127 | INFO |  * Restarting with stat
+2025-12-15 19:25:11,367 | WARNING |  * Debugger is active!
+2025-12-15 19:25:11,373 | INFO |  * Debugger PIN: 855-374-315
+2025-12-15 19:25:15,135 | INFO | 192.168.29.226 - - [15/Dec/2025 19:25:15] "GET /login HTTP/1.1" 200 -
+2025-12-15 19:25:24,658 | INFO | 192.168.29.226 - - [15/Dec/2025 19:25:24] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-15 19:25:24,751 | INFO | 192.168.29.226 - - [15/Dec/2025 19:25:24] "GET / HTTP/1.1" 200 -
+2025-12-15 19:25:32,798 | INFO | 192.168.29.226 - - [15/Dec/2025 19:25:32] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-12-15 19:25:32,807 | INFO | 192.168.29.226 - - [15/Dec/2025 19:25:32] "GET / HTTP/1.1" 200 -
+2025-12-15 19:25:34,766 | INFO | File downloaded: Mini-Militia---War.io_com.appsomniacs.da2_gameslolc_28927088.exe
+2025-12-15 19:25:34,773 | INFO | 192.168.29.226 - - [15/Dec/2025 19:25:34] "GET /download/Mini-Militia---War.io_com.appsomniacs.da2_gameslolc_28927088.exe HTTP/1.1" 200 -
+2025-12-15 19:25:39,479 | INFO | File deleted: Mini-Militia---War.io_com.appsomniacs.da2_gameslolc_28927088.exe
+2025-12-15 19:25:39,481 | INFO | 192.168.29.226 - - [15/Dec/2025 19:25:39] "[32mPOST /delete/Mini-Militia---War.io_com.appsomniacs.da2_gameslolc_28927088.exe HTTP/1.1[0m" 302 -
+2025-12-15 19:25:39,507 | INFO | 192.168.29.226 - - [15/Dec/2025 19:25:39] "GET / HTTP/1.1" 200 -
+2025-12-15 19:26:28,662 | INFO |  * Detected change in '/home/admin1/Ragu/Server/services/file_service.py', reloading
+2025-12-15 19:26:28,720 | INFO |  * Restarting with stat
+2025-12-15 19:26:44,216 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.226:5000
+2025-12-15 19:26:44,216 | INFO | [33mPress CTRL+C to quit[0m
+2025-12-15 19:26:44,219 | INFO |  * Restarting with stat
+2025-12-15 19:26:44,448 | WARNING |  * Debugger is active!
+2025-12-15 19:26:44,454 | INFO |  * Debugger PIN: 855-374-315
+2025-12-15 19:26:47,346 | INFO | 192.168.29.226 - - [15/Dec/2025 19:26:47] "GET / HTTP/1.1" 200 -
+2025-12-15 19:26:48,414 | INFO | 192.168.29.226 - - [15/Dec/2025 19:26:48] "GET / HTTP/1.1" 200 -
+2025-12-15 19:26:48,685 | INFO | 192.168.29.226 - - [15/Dec/2025 19:26:48] "GET / HTTP/1.1" 200 -
+2025-12-15 19:26:51,174 | INFO | 192.168.29.226 - - [15/Dec/2025 19:26:51] "GET /login HTTP/1.1" 200 -
+2025-12-15 19:27:00,146 | INFO | 192.168.29.226 - - [15/Dec/2025 19:27:00] "GET / HTTP/1.1" 200 -
+2025-12-15 19:27:04,426 | INFO | 192.168.29.226 - - [15/Dec/2025 19:27:04] "GET / HTTP/1.1" 200 -
+2025-12-15 19:29:16,143 | INFO | 192.168.29.226 - - [15/Dec/2025 19:29:16] "GET / HTTP/1.1" 200 -
+2025-12-15 19:29:21,265 | INFO | 192.168.29.226 - - [15/Dec/2025 19:29:21] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-12-15 19:29:21,283 | INFO | 192.168.29.226 - - [15/Dec/2025 19:29:21] "GET /login HTTP/1.1" 200 -
+2025-12-15 19:29:29,920 | INFO | 192.168.29.226 - - [15/Dec/2025 19:29:29] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-15 19:29:29,941 | INFO | 192.168.29.226 - - [15/Dec/2025 19:29:29] "GET / HTTP/1.1" 200 -
+2025-12-15 19:33:01,824 | INFO |  * Detected change in '/home/admin1/Ragu/Server/api/file_api.py', reloading
+2025-12-15 19:33:01,878 | INFO |  * Restarting with stat
+2025-12-15 19:33:02,112 | WARNING |  * Debugger is active!
+2025-12-15 19:33:02,118 | INFO |  * Debugger PIN: 855-374-315
+2025-12-15 19:33:25,214 | INFO |  * Detected change in '/home/admin1/Ragu/Server/app.py', reloading
+2025-12-15 19:33:25,277 | INFO |  * Restarting with stat
+2025-12-15 19:33:25,513 | WARNING |  * Debugger is active!
+2025-12-15 19:33:25,520 | INFO |  * Debugger PIN: 855-374-315
+2025-12-15 19:33:38,578 | INFO |  * Detected change in '/home/admin1/Ragu/Server/app.py', reloading
+2025-12-15 19:33:38,634 | INFO |  * Restarting with stat
+2025-12-15 19:33:38,880 | WARNING |  * Debugger is active!
+2025-12-15 19:33:38,886 | INFO |  * Debugger PIN: 855-374-315
+2025-12-15 19:33:51,265 | INFO | 192.168.29.226 - - [15/Dec/2025 19:33:51] "GET / HTTP/1.1" 200 -
+2025-12-15 19:33:52,584 | INFO | 192.168.29.226 - - [15/Dec/2025 19:33:52] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-12-15 19:33:52,619 | INFO | 192.168.29.226 - - [15/Dec/2025 19:33:52] "GET /login HTTP/1.1" 200 -
+2025-12-15 19:34:00,225 | INFO | 192.168.29.226 - - [15/Dec/2025 19:34:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-15 19:34:00,246 | INFO | 192.168.29.226 - - [15/Dec/2025 19:34:00] "GET / HTTP/1.1" 200 -
+2025-12-15 19:34:13,640 | INFO | 192.168.29.226 - - [15/Dec/2025 19:34:13] "GET /api/files HTTP/1.1" 200 -
+2025-12-15 19:35:27,306 | INFO |  * Detected change in '/home/admin1/Ragu/Server/api/file_api.py', reloading
+2025-12-15 19:35:27,373 | INFO |  * Restarting with stat
+2025-12-15 19:35:27,610 | WARNING |  * Debugger is active!
+2025-12-15 19:35:27,615 | INFO |  * Debugger PIN: 855-374-315
+2025-12-15 19:36:41,810 | INFO | 127.0.0.1 - - [15/Dec/2025 19:36:41] "[32mPOST /api/upload HTTP/1.1[0m" 302 -
+2025-12-15 19:36:49,224 | INFO | 192.168.29.226 - - [15/Dec/2025 19:36:49] "GET / HTTP/1.1" 200 -
+2025-12-15 19:36:57,622 | INFO | 192.168.29.226 - - [15/Dec/2025 19:36:57] "GET /api/files HTTP/1.1" 200 -
+2025-12-15 19:37:28,086 | INFO |  * Detected change in '/home/admin1/Ragu/Server/api/file_api.py', reloading
+2025-12-15 19:37:28,144 | INFO |  * Restarting with stat
+2025-12-15 19:37:28,378 | WARNING |  * Debugger is active!
+2025-12-15 19:37:28,384 | INFO |  * Debugger PIN: 855-374-315
+2025-12-15 20:09:24,088 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.226:5000
+2025-12-15 20:09:24,088 | INFO | [33mPress CTRL+C to quit[0m
+2025-12-15 20:09:24,091 | INFO |  * Restarting with stat
+2025-12-15 20:09:24,325 | WARNING |  * Debugger is active!
+2025-12-15 20:09:24,350 | INFO |  * Debugger PIN: 855-374-315
+2025-12-15 20:09:28,763 | INFO | 192.168.29.226 - - [15/Dec/2025 20:09:28] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-12-15 20:09:28,780 | INFO | 192.168.29.226 - - [15/Dec/2025 20:09:28] "GET /login HTTP/1.1" 200 -
+2025-12-15 20:09:36,251 | INFO | 192.168.29.226 - - [15/Dec/2025 20:09:36] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-15 20:09:36,300 | INFO | 192.168.29.226 - - [15/Dec/2025 20:09:36] "GET / HTTP/1.1" 200 -
+2025-12-15 20:09:39,412 | INFO | 192.168.29.226 - - [15/Dec/2025 20:09:39] "GET / HTTP/1.1" 200 -
+2025-12-15 20:09:46,574 | INFO | 192.168.29.226 - - [15/Dec/2025 20:09:46] "GET /dashboard HTTP/1.1" 200 -
+2025-12-15 20:09:59,022 | INFO | 192.168.29.226 - - [15/Dec/2025 20:09:59] "GET / HTTP/1.1" 200 -
+2025-12-15 20:11:17,784 | INFO | 192.168.29.226 - - [15/Dec/2025 20:11:17] "GET /dashboard HTTP/1.1" 200 -
+2025-12-15 20:11:23,053 | INFO | 192.168.29.226 - - [15/Dec/2025 20:11:23] "GET / HTTP/1.1" 200 -
+2025-12-15 20:13:58,779 | INFO | 192.168.29.226 - - [15/Dec/2025 20:13:58] "GET / HTTP/1.1" 200 -
+2025-12-15 20:14:00,534 | INFO | 192.168.29.226 - - [15/Dec/2025 20:14:00] "GET /dashboard HTTP/1.1" 200 -
+2025-12-15 20:14:03,726 | INFO | 192.168.29.226 - - [15/Dec/2025 20:14:03] "GET /dashboard HTTP/1.1" 200 -
+2025-12-15 20:14:05,413 | INFO | 192.168.29.226 - - [15/Dec/2025 20:14:05] "GET / HTTP/1.1" 200 -
+2025-12-15 20:14:49,808 | INFO | 192.168.29.226 - - [15/Dec/2025 20:14:49] "GET / HTTP/1.1" 200 -
+2025-12-15 20:15:14,714 | INFO | 192.168.29.226 - - [15/Dec/2025 20:15:14] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-12-15 20:15:14,726 | INFO | 192.168.29.226 - - [15/Dec/2025 20:15:14] "GET / HTTP/1.1" 200 -
+2025-12-15 20:16:59,938 | INFO | 192.168.29.226 - - [15/Dec/2025 20:16:59] "GET /dashboard HTTP/1.1" 200 -
+2025-12-15 20:17:13,609 | INFO | 192.168.29.226 - - [15/Dec/2025 20:17:13] "GET / HTTP/1.1" 200 -
+2025-12-15 20:17:16,392 | INFO | File deleted: Metasploitable_2
+2025-12-15 20:17:16,393 | INFO | 192.168.29.226 - - [15/Dec/2025 20:17:16] "[32mPOST /delete/Metasploitable_2 HTTP/1.1[0m" 302 -
+2025-12-15 20:17:16,421 | INFO | 192.168.29.226 - - [15/Dec/2025 20:17:16] "GET / HTTP/1.1" 200 -
+2025-12-15 20:17:51,971 | INFO | 192.168.29.226 - - [15/Dec/2025 20:17:51] "GET / HTTP/1.1" 200 -
+2025-12-15 20:18:01,199 | INFO | 192.168.29.226 - - [15/Dec/2025 20:18:01] "GET / HTTP/1.1" 200 -
+2025-12-15 20:19:51,059 | INFO | 192.168.29.226 - - [15/Dec/2025 20:19:51] "GET / HTTP/1.1" 200 -
+2025-12-15 20:19:51,720 | INFO | 192.168.29.226 - - [15/Dec/2025 20:19:51] "GET / HTTP/1.1" 200 -
+2025-12-15 20:20:54,943 | INFO | 192.168.29.226 - - [15/Dec/2025 20:20:54] "GET / HTTP/1.1" 200 -
+2025-12-15 20:20:54,997 | INFO | 192.168.29.226 - - [15/Dec/2025 20:20:54] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-12-15 20:21:04,971 | INFO | 192.168.29.226 - - [15/Dec/2025 20:21:04] "GET / HTTP/1.1" 200 -
+2025-12-15 20:21:05,019 | INFO | 192.168.29.226 - - [15/Dec/2025 20:21:05] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-12-15 20:21:06,473 | INFO | 192.168.29.226 - - [15/Dec/2025 20:21:06] "GET / HTTP/1.1" 200 -
+2025-12-15 20:21:06,525 | INFO | 192.168.29.226 - - [15/Dec/2025 20:21:06] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-12-15 20:21:07,346 | INFO | 192.168.29.226 - - [15/Dec/2025 20:21:07] "GET /dashboard HTTP/1.1" 200 -
+2025-12-15 20:21:09,761 | INFO | 192.168.29.226 - - [15/Dec/2025 20:21:09] "GET / HTTP/1.1" 200 -
+2025-12-15 20:21:09,819 | INFO | 192.168.29.226 - - [15/Dec/2025 20:21:09] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-12-15 20:21:11,680 | INFO | 192.168.29.226 - - [15/Dec/2025 20:21:11] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-12-15 20:21:11,696 | INFO | 192.168.29.226 - - [15/Dec/2025 20:21:11] "GET /login HTTP/1.1" 200 -
+2025-12-15 20:21:18,406 | INFO | 192.168.29.226 - - [15/Dec/2025 20:21:18] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-15 20:21:18,438 | INFO | 192.168.29.226 - - [15/Dec/2025 20:21:18] "GET / HTTP/1.1" 200 -
+2025-12-15 20:21:18,504 | INFO | 192.168.29.226 - - [15/Dec/2025 20:21:18] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-12-15 20:21:25,841 | INFO | 192.168.29.226 - - [15/Dec/2025 20:21:25] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-12-15 20:21:25,859 | INFO | 192.168.29.226 - - [15/Dec/2025 20:21:25] "GET / HTTP/1.1" 200 -
+2025-12-15 20:21:25,910 | INFO | 192.168.29.226 - - [15/Dec/2025 20:21:25] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-12-15 20:21:27,257 | INFO | 192.168.29.226 - - [15/Dec/2025 20:21:27] "GET / HTTP/1.1" 200 -
+2025-12-15 20:21:27,303 | INFO | 192.168.29.226 - - [15/Dec/2025 20:21:27] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-12-15 20:21:38,820 | INFO | 192.168.29.226 - - [15/Dec/2025 20:21:38] "GET /dashboard HTTP/1.1" 200 -
+2025-12-15 20:21:40,451 | INFO | 192.168.29.226 - - [15/Dec/2025 20:21:40] "GET / HTTP/1.1" 200 -
+2025-12-15 20:21:40,505 | INFO | 192.168.29.226 - - [15/Dec/2025 20:21:40] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-12-15 20:22:14,683 | INFO | 192.168.29.226 - - [15/Dec/2025 20:22:14] "GET / HTTP/1.1" 200 -
+2025-12-15 20:22:14,742 | INFO | 192.168.29.226 - - [15/Dec/2025 20:22:14] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-12-15 20:22:45,665 | INFO | 192.168.29.226 - - [15/Dec/2025 20:22:45] "GET / HTTP/1.1" 200 -
+2025-12-15 20:22:45,716 | INFO | 192.168.29.226 - - [15/Dec/2025 20:22:45] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-12-15 20:22:47,312 | INFO | 192.168.29.226 - - [15/Dec/2025 20:22:47] "GET /dashboard HTTP/1.1" 200 -
+2025-12-15 20:22:47,367 | INFO | 192.168.29.226 - - [15/Dec/2025 20:22:47] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-12-15 20:22:51,571 | INFO | 192.168.29.226 - - [15/Dec/2025 20:22:51] "GET / HTTP/1.1" 200 -
+2025-12-15 20:22:51,627 | INFO | 192.168.29.226 - - [15/Dec/2025 20:22:51] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-12-15 20:22:52,844 | INFO | 192.168.29.226 - - [15/Dec/2025 20:22:52] "GET /dashboard HTTP/1.1" 200 -
+2025-12-15 20:22:52,895 | INFO | 192.168.29.226 - - [15/Dec/2025 20:22:52] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-12-15 20:22:54,474 | INFO | 192.168.29.226 - - [15/Dec/2025 20:22:54] "GET / HTTP/1.1" 200 -
+2025-12-15 20:22:54,525 | INFO | 192.168.29.226 - - [15/Dec/2025 20:22:54] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-12-15 20:22:55,955 | INFO | 192.168.29.226 - - [15/Dec/2025 20:22:55] "GET /dashboard HTTP/1.1" 200 -
+2025-12-15 20:22:56,005 | INFO | 192.168.29.226 - - [15/Dec/2025 20:22:56] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-12-15 20:22:57,146 | INFO | 192.168.29.226 - - [15/Dec/2025 20:22:57] "GET / HTTP/1.1" 200 -
+2025-12-15 20:22:57,194 | INFO | 192.168.29.226 - - [15/Dec/2025 20:22:57] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-12-15 20:22:57,769 | INFO | 192.168.29.226 - - [15/Dec/2025 20:22:57] "GET /dashboard HTTP/1.1" 200 -
+2025-12-15 20:22:57,816 | INFO | 192.168.29.226 - - [15/Dec/2025 20:22:57] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-12-15 20:23:02,947 | INFO | 192.168.29.226 - - [15/Dec/2025 20:23:02] "GET / HTTP/1.1" 200 -
+2025-12-15 20:23:03,004 | INFO | 192.168.29.226 - - [15/Dec/2025 20:23:03] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-12-15 20:23:04,017 | INFO | File deleted: Metasploitable_2
+2025-12-15 20:23:04,017 | INFO | 192.168.29.226 - - [15/Dec/2025 20:23:04] "[32mPOST /delete/Metasploitable_2 HTTP/1.1[0m" 302 -
+2025-12-15 20:23:04,035 | INFO | 192.168.29.226 - - [15/Dec/2025 20:23:04] "GET / HTTP/1.1" 200 -
+2025-12-15 20:23:04,088 | INFO | 192.168.29.226 - - [15/Dec/2025 20:23:04] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-12-15 20:23:05,148 | INFO | 192.168.29.226 - - [15/Dec/2025 20:23:05] "GET /dashboard HTTP/1.1" 200 -
+2025-12-15 20:23:05,192 | INFO | 192.168.29.226 - - [15/Dec/2025 20:23:05] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-12-15 20:23:07,715 | INFO | 192.168.29.226 - - [15/Dec/2025 20:23:07] "GET / HTTP/1.1" 200 -
+2025-12-15 20:23:07,766 | INFO | 192.168.29.226 - - [15/Dec/2025 20:23:07] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-12-15 20:23:14,853 | INFO | 192.168.29.226 - - [15/Dec/2025 20:23:14] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-12-15 20:23:14,873 | INFO | 192.168.29.226 - - [15/Dec/2025 20:23:14] "GET / HTTP/1.1" 200 -
+2025-12-15 20:23:14,927 | INFO | 192.168.29.226 - - [15/Dec/2025 20:23:14] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-12-15 20:23:15,959 | INFO | 192.168.29.226 - - [15/Dec/2025 20:23:15] "GET /dashboard HTTP/1.1" 200 -
+2025-12-15 20:23:16,008 | INFO | 192.168.29.226 - - [15/Dec/2025 20:23:16] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-12-15 20:23:23,397 | INFO | 192.168.29.226 - - [15/Dec/2025 20:23:23] "GET / HTTP/1.1" 200 -
+2025-12-15 20:23:23,457 | INFO | 192.168.29.226 - - [15/Dec/2025 20:23:23] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-12-15 20:23:24,325 | INFO | File deleted: Credentials
+2025-12-15 20:23:24,326 | INFO | 192.168.29.226 - - [15/Dec/2025 20:23:24] "[32mPOST /delete/Credentials HTTP/1.1[0m" 302 -
+2025-12-15 20:23:24,352 | INFO | 192.168.29.226 - - [15/Dec/2025 20:23:24] "GET / HTTP/1.1" 200 -
+2025-12-15 20:23:24,404 | INFO | 192.168.29.226 - - [15/Dec/2025 20:23:24] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-12-15 20:23:26,519 | INFO | 192.168.29.226 - - [15/Dec/2025 20:23:26] "GET /dashboard HTTP/1.1" 200 -
+2025-12-15 20:23:26,566 | INFO | 192.168.29.226 - - [15/Dec/2025 20:23:26] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-12-15 20:23:28,346 | INFO | 192.168.29.226 - - [15/Dec/2025 20:23:28] "GET / HTTP/1.1" 200 -
+2025-12-15 20:23:28,402 | INFO | 192.168.29.226 - - [15/Dec/2025 20:23:28] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-12-15 20:24:31,086 | INFO | 192.168.29.226 - - [15/Dec/2025 20:24:31] "GET / HTTP/1.1" 200 -
+2025-12-15 20:24:31,145 | INFO | 192.168.29.226 - - [15/Dec/2025 20:24:31] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-12-15 20:24:33,376 | INFO | 192.168.29.226 - - [15/Dec/2025 20:24:33] "GET / HTTP/1.1" 200 -
+2025-12-15 20:24:33,429 | INFO | 192.168.29.226 - - [15/Dec/2025 20:24:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 20:24:34,320 | INFO | 192.168.29.226 - - [15/Dec/2025 20:24:34] "GET /dashboard HTTP/1.1" 200 -
+2025-12-15 20:24:34,369 | INFO | 192.168.29.226 - - [15/Dec/2025 20:24:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 20:24:46,422 | INFO | 192.168.29.226 - - [15/Dec/2025 20:24:46] "GET /dashboard HTTP/1.1" 200 -
+2025-12-15 20:24:46,481 | INFO | 192.168.29.226 - - [15/Dec/2025 20:24:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 20:24:47,205 | INFO | 192.168.29.226 - - [15/Dec/2025 20:24:47] "GET /dashboard HTTP/1.1" 200 -
+2025-12-15 20:24:47,259 | INFO | 192.168.29.226 - - [15/Dec/2025 20:24:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 20:25:07,813 | INFO | 192.168.29.226 - - [15/Dec/2025 20:25:07] "GET / HTTP/1.1" 200 -
+2025-12-15 20:25:07,871 | INFO | 192.168.29.226 - - [15/Dec/2025 20:25:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 20:25:27,880 | INFO | 192.168.29.226 - - [15/Dec/2025 20:25:27] "GET / HTTP/1.1" 200 -
+2025-12-15 20:25:27,942 | INFO | 192.168.29.226 - - [15/Dec/2025 20:25:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 20:25:28,574 | INFO | 192.168.29.226 - - [15/Dec/2025 20:25:28] "GET /dashboard HTTP/1.1" 200 -
+2025-12-15 20:25:28,620 | INFO | 192.168.29.226 - - [15/Dec/2025 20:25:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 20:25:32,202 | INFO | 192.168.29.226 - - [15/Dec/2025 20:25:32] "GET / HTTP/1.1" 200 -
+2025-12-15 20:25:32,261 | INFO | 192.168.29.226 - - [15/Dec/2025 20:25:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 20:26:05,792 | INFO | 192.168.29.226 - - [15/Dec/2025 20:26:05] "GET / HTTP/1.1" 200 -
+2025-12-15 20:26:05,839 | INFO | 192.168.29.226 - - [15/Dec/2025 20:26:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 20:26:06,816 | INFO | 192.168.29.226 - - [15/Dec/2025 20:26:06] "GET /dashboard HTTP/1.1" 200 -
+2025-12-15 20:26:06,870 | INFO | 192.168.29.226 - - [15/Dec/2025 20:26:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 20:26:12,249 | INFO | 192.168.29.226 - - [15/Dec/2025 20:26:12] "GET / HTTP/1.1" 200 -
+2025-12-15 20:26:12,310 | INFO | 192.168.29.226 - - [15/Dec/2025 20:26:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 20:26:14,167 | INFO | 192.168.29.226 - - [15/Dec/2025 20:26:14] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-12-15 20:26:14,178 | INFO | 192.168.29.226 - - [15/Dec/2025 20:26:14] "GET /login HTTP/1.1" 200 -
+2025-12-15 20:26:21,873 | INFO | 192.168.29.226 - - [15/Dec/2025 20:26:21] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-15 20:26:21,909 | INFO | 192.168.29.226 - - [15/Dec/2025 20:26:21] "GET / HTTP/1.1" 200 -
+2025-12-15 20:26:21,976 | INFO | 192.168.29.226 - - [15/Dec/2025 20:26:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 20:28:20,120 | INFO | 192.168.29.226 - - [15/Dec/2025 20:28:20] "GET /dashboard HTTP/1.1" 200 -
+2025-12-15 20:28:20,177 | INFO | 192.168.29.226 - - [15/Dec/2025 20:28:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 20:28:28,675 | INFO | 192.168.29.226 - - [15/Dec/2025 20:28:28] "GET / HTTP/1.1" 200 -
+2025-12-15 20:28:28,731 | INFO | 192.168.29.226 - - [15/Dec/2025 20:28:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 20:29:15,583 | INFO | 192.168.29.226 - - [15/Dec/2025 20:29:15] "GET /dashboard HTTP/1.1" 200 -
+2025-12-15 20:29:15,637 | INFO | 192.168.29.226 - - [15/Dec/2025 20:29:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 20:29:18,029 | INFO | 192.168.29.226 - - [15/Dec/2025 20:29:18] "GET / HTTP/1.1" 200 -
+2025-12-15 20:29:18,084 | INFO | 192.168.29.226 - - [15/Dec/2025 20:29:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 20:30:27,819 | INFO | 192.168.29.226 - - [15/Dec/2025 20:30:27] "GET / HTTP/1.1" 200 -
+2025-12-15 20:30:27,867 | INFO | 192.168.29.226 - - [15/Dec/2025 20:30:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 20:31:20,024 | INFO | 192.168.29.226 - - [15/Dec/2025 20:31:20] "GET / HTTP/1.1" 200 -
+2025-12-15 20:31:20,074 | INFO | 192.168.29.226 - - [15/Dec/2025 20:31:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 20:31:32,407 | INFO | 192.168.29.226 - - [15/Dec/2025 20:31:32] "GET / HTTP/1.1" 200 -
+2025-12-15 20:31:32,467 | INFO | 192.168.29.226 - - [15/Dec/2025 20:31:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 20:31:34,157 | INFO | 192.168.29.226 - - [15/Dec/2025 20:31:34] "GET / HTTP/1.1" 200 -
+2025-12-15 20:31:34,203 | INFO | 192.168.29.226 - - [15/Dec/2025 20:31:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 20:31:56,286 | INFO | 192.168.29.226 - - [15/Dec/2025 20:31:56] "GET / HTTP/1.1" 200 -
+2025-12-15 20:31:56,347 | INFO | 192.168.29.226 - - [15/Dec/2025 20:31:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 20:31:56,651 | INFO | 192.168.29.226 - - [15/Dec/2025 20:31:56] "GET / HTTP/1.1" 200 -
+2025-12-15 20:31:56,700 | INFO | 192.168.29.226 - - [15/Dec/2025 20:31:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 20:32:28,951 | INFO | 192.168.29.226 - - [15/Dec/2025 20:32:28] "GET / HTTP/1.1" 200 -
+2025-12-15 20:32:29,007 | INFO | 192.168.29.226 - - [15/Dec/2025 20:32:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 20:32:36,407 | INFO | 192.168.29.226 - - [15/Dec/2025 20:32:36] "GET / HTTP/1.1" 200 -
+2025-12-15 20:32:36,459 | INFO | 192.168.29.226 - - [15/Dec/2025 20:32:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 20:33:10,205 | INFO | 192.168.29.226 - - [15/Dec/2025 20:33:10] "GET / HTTP/1.1" 200 -
+2025-12-15 20:33:10,251 | INFO | 192.168.29.226 - - [15/Dec/2025 20:33:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 20:35:08,869 | INFO | 192.168.29.223 - - [15/Dec/2025 20:35:08] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-15 20:35:08,927 | INFO | 192.168.29.223 - - [15/Dec/2025 20:35:08] "GET /login HTTP/1.1" 200 -
+2025-12-15 20:35:09,344 | INFO | 192.168.29.223 - - [15/Dec/2025 20:35:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-15 20:35:12,067 | INFO | 192.168.29.223 - - [15/Dec/2025 20:35:12] "GET /login HTTP/1.1" 200 -
+2025-12-15 20:35:26,119 | INFO | 192.168.29.223 - - [15/Dec/2025 20:35:26] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-15 20:35:26,231 | INFO | 192.168.29.223 - - [15/Dec/2025 20:35:26] "GET / HTTP/1.1" 200 -
+2025-12-15 20:35:26,888 | INFO | 192.168.29.223 - - [15/Dec/2025 20:35:26] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-12-15 20:36:43,545 | INFO | 192.168.29.226 - - [15/Dec/2025 20:36:43] "GET / HTTP/1.1" 200 -
+2025-12-15 20:36:43,663 | INFO | 192.168.29.226 - - [15/Dec/2025 20:36:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 21:15:49,613 | INFO |  * Detected change in '/home/admin1/Ragu/Server/routes/file_routes.py', reloading
+2025-12-15 21:15:49,681 | INFO |  * Restarting with stat
+2025-12-15 21:15:49,932 | WARNING |  * Debugger is active!
+2025-12-15 21:15:49,938 | INFO |  * Debugger PIN: 855-374-315
+2025-12-15 21:16:16,536 | INFO | 192.168.29.226 - - [15/Dec/2025 21:16:16] "GET / HTTP/1.1" 200 -
+2025-12-15 21:16:16,590 | INFO | 192.168.29.226 - - [15/Dec/2025 21:16:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 21:17:35,432 | INFO | 192.168.29.226 - - [15/Dec/2025 21:17:35] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-12-15 21:17:35,443 | INFO | 192.168.29.226 - - [15/Dec/2025 21:17:35] "GET / HTTP/1.1" 200 -
+2025-12-15 21:17:35,496 | INFO | 192.168.29.226 - - [15/Dec/2025 21:17:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 21:17:42,734 | INFO | 192.168.29.226 - - [15/Dec/2025 21:17:42] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-12-15 21:17:42,743 | INFO | 192.168.29.226 - - [15/Dec/2025 21:17:42] "GET / HTTP/1.1" 200 -
+2025-12-15 21:17:42,793 | INFO | 192.168.29.226 - - [15/Dec/2025 21:17:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 21:17:46,075 | INFO | File deleted: armstrong_interupts.mp4
+2025-12-15 21:17:46,075 | INFO | 192.168.29.226 - - [15/Dec/2025 21:17:46] "[32mPOST /delete/armstrong_interupts.mp4 HTTP/1.1[0m" 302 -
+2025-12-15 21:17:46,086 | INFO | 192.168.29.226 - - [15/Dec/2025 21:17:46] "GET / HTTP/1.1" 200 -
+2025-12-15 21:17:46,134 | INFO | 192.168.29.226 - - [15/Dec/2025 21:17:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 21:17:46,953 | INFO | File deleted: armstrong.mp4
+2025-12-15 21:17:46,953 | INFO | 192.168.29.226 - - [15/Dec/2025 21:17:46] "[32mPOST /delete/armstrong.mp4 HTTP/1.1[0m" 302 -
+2025-12-15 21:17:46,974 | INFO | 192.168.29.226 - - [15/Dec/2025 21:17:46] "GET / HTTP/1.1" 200 -
+2025-12-15 21:17:47,029 | INFO | 192.168.29.226 - - [15/Dec/2025 21:17:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 21:17:48,080 | INFO | 192.168.29.226 - - [15/Dec/2025 21:17:48] "GET /dashboard HTTP/1.1" 200 -
+2025-12-15 21:17:48,131 | INFO | 192.168.29.226 - - [15/Dec/2025 21:17:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 21:17:59,684 | INFO | 192.168.29.226 - - [15/Dec/2025 21:17:59] "GET / HTTP/1.1" 200 -
+2025-12-15 21:17:59,739 | INFO | 192.168.29.226 - - [15/Dec/2025 21:17:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 21:18:16,373 | INFO | 192.168.29.226 - - [15/Dec/2025 21:18:16] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-12-15 21:18:16,386 | INFO | 192.168.29.226 - - [15/Dec/2025 21:18:16] "GET / HTTP/1.1" 200 -
+2025-12-15 21:18:16,438 | INFO | 192.168.29.226 - - [15/Dec/2025 21:18:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 21:18:24,577 | INFO | File deleted: Tomb_Raider_3_Adventures_of_Lara_Croft_1998_Core_US_SLUS-00691.pdf
+2025-12-15 21:18:24,578 | INFO | 192.168.29.226 - - [15/Dec/2025 21:18:24] "[32mPOST /delete/Tomb_Raider_3_Adventures_of_Lara_Croft_1998_Core_US_SLUS-00691.pdf HTTP/1.1[0m" 302 -
+2025-12-15 21:18:24,589 | INFO | 192.168.29.226 - - [15/Dec/2025 21:18:24] "GET / HTTP/1.1" 200 -
+2025-12-15 21:18:24,644 | INFO | 192.168.29.226 - - [15/Dec/2025 21:18:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 21:18:26,656 | INFO | File deleted: Grand_Theft_Auto_English.pdf
+2025-12-15 21:18:26,656 | INFO | 192.168.29.226 - - [15/Dec/2025 21:18:26] "[32mPOST /delete/Grand_Theft_Auto_English.pdf HTTP/1.1[0m" 302 -
+2025-12-15 21:18:26,666 | INFO | 192.168.29.226 - - [15/Dec/2025 21:18:26] "GET / HTTP/1.1" 200 -
+2025-12-15 21:18:26,749 | INFO | 192.168.29.226 - - [15/Dec/2025 21:18:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 21:18:28,637 | INFO | File deleted: Intelligent_Gamer_1997-01
+2025-12-15 21:18:28,637 | INFO | 192.168.29.226 - - [15/Dec/2025 21:18:28] "[32mPOST /delete/Intelligent_Gamer_1997-01 HTTP/1.1[0m" 302 -
+2025-12-15 21:18:28,648 | INFO | 192.168.29.226 - - [15/Dec/2025 21:18:28] "GET / HTTP/1.1" 200 -
+2025-12-15 21:18:28,706 | INFO | 192.168.29.226 - - [15/Dec/2025 21:18:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 21:18:29,947 | INFO | File deleted: Spider-Man_2_Enter_Electro_English.pdf
+2025-12-15 21:18:29,947 | INFO | 192.168.29.226 - - [15/Dec/2025 21:18:29] "[32mPOST /delete/Spider-Man_2_Enter_Electro_English.pdf HTTP/1.1[0m" 302 -
+2025-12-15 21:18:29,957 | INFO | 192.168.29.226 - - [15/Dec/2025 21:18:29] "GET / HTTP/1.1" 200 -
+2025-12-15 21:18:30,001 | INFO | 192.168.29.226 - - [15/Dec/2025 21:18:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 21:18:31,078 | INFO | File deleted: tomb_raider_ii.pdf
+2025-12-15 21:18:31,078 | INFO | 192.168.29.226 - - [15/Dec/2025 21:18:31] "[32mPOST /delete/tomb_raider_ii.pdf HTTP/1.1[0m" 302 -
+2025-12-15 21:18:31,102 | INFO | 192.168.29.226 - - [15/Dec/2025 21:18:31] "GET / HTTP/1.1" 200 -
+2025-12-15 21:18:31,155 | INFO | 192.168.29.226 - - [15/Dec/2025 21:18:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 21:18:32,140 | INFO | File deleted: Mortal_Kombat_4.pdf
+2025-12-15 21:18:32,140 | INFO | 192.168.29.226 - - [15/Dec/2025 21:18:32] "[32mPOST /delete/Mortal_Kombat_4.pdf HTTP/1.1[0m" 302 -
+2025-12-15 21:18:32,148 | INFO | 192.168.29.226 - - [15/Dec/2025 21:18:32] "GET / HTTP/1.1" 200 -
+2025-12-15 21:18:32,183 | INFO | 192.168.29.226 - - [15/Dec/2025 21:18:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 21:18:33,187 | INFO | File deleted: wwe_smackdown.pdf
+2025-12-15 21:18:33,188 | INFO | 192.168.29.226 - - [15/Dec/2025 21:18:33] "[32mPOST /delete/wwe_smackdown.pdf HTTP/1.1[0m" 302 -
+2025-12-15 21:18:33,197 | INFO | 192.168.29.226 - - [15/Dec/2025 21:18:33] "GET / HTTP/1.1" 200 -
+2025-12-15 21:18:33,255 | INFO | 192.168.29.226 - - [15/Dec/2025 21:18:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 21:18:34,154 | INFO | File deleted: medal_of_honour.pdf
+2025-12-15 21:18:34,155 | INFO | 192.168.29.226 - - [15/Dec/2025 21:18:34] "[32mPOST /delete/medal_of_honour.pdf HTTP/1.1[0m" 302 -
+2025-12-15 21:18:34,163 | INFO | 192.168.29.226 - - [15/Dec/2025 21:18:34] "GET / HTTP/1.1" 200 -
+2025-12-15 21:18:34,224 | INFO | 192.168.29.226 - - [15/Dec/2025 21:18:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 21:18:35,168 | INFO | File deleted: batman_and_robin.pdf
+2025-12-15 21:18:35,168 | INFO | 192.168.29.226 - - [15/Dec/2025 21:18:35] "[32mPOST /delete/batman_and_robin.pdf HTTP/1.1[0m" 302 -
+2025-12-15 21:18:35,196 | INFO | 192.168.29.226 - - [15/Dec/2025 21:18:35] "GET / HTTP/1.1" 200 -
+2025-12-15 21:18:35,247 | INFO | 192.168.29.226 - - [15/Dec/2025 21:18:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 21:18:36,375 | INFO | File deleted: tekken-3-manual-en.pdf
+2025-12-15 21:18:36,377 | INFO | 192.168.29.226 - - [15/Dec/2025 21:18:36] "[32mPOST /delete/tekken-3-manual-en.pdf HTTP/1.1[0m" 302 -
+2025-12-15 21:18:36,386 | INFO | 192.168.29.226 - - [15/Dec/2025 21:18:36] "GET / HTTP/1.1" 200 -
+2025-12-15 21:18:36,460 | INFO | 192.168.29.226 - - [15/Dec/2025 21:18:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 21:19:07,846 | INFO | 192.168.29.226 - - [15/Dec/2025 21:19:07] "GET / HTTP/1.1" 200 -
+2025-12-15 21:19:07,899 | INFO | 192.168.29.226 - - [15/Dec/2025 21:19:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 21:19:12,441 | INFO | 192.168.29.226 - - [15/Dec/2025 21:19:12] "GET /dashboard HTTP/1.1" 200 -
+2025-12-15 21:19:12,496 | INFO | 192.168.29.226 - - [15/Dec/2025 21:19:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 21:19:15,546 | INFO | 192.168.29.226 - - [15/Dec/2025 21:19:15] "GET / HTTP/1.1" 200 -
+2025-12-15 21:19:15,598 | INFO | 192.168.29.226 - - [15/Dec/2025 21:19:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 21:28:56,348 | INFO | 192.168.29.226 - - [15/Dec/2025 21:28:56] "GET / HTTP/1.1" 200 -
+2025-12-15 21:28:56,398 | INFO | 192.168.29.226 - - [15/Dec/2025 21:28:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-15 21:30:07,355 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.226:5000
+2025-12-15 21:30:07,355 | INFO | [33mPress CTRL+C to quit[0m
+2025-12-15 21:30:07,359 | INFO |  * Restarting with stat
+2025-12-15 21:30:07,591 | WARNING |  * Debugger is active!
+2025-12-15 21:30:07,597 | INFO |  * Debugger PIN: 855-374-315
+2025-12-15 21:44:54,269 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.226:5000
+2025-12-15 21:44:54,269 | INFO | [33mPress CTRL+C to quit[0m
+2025-12-15 21:44:54,272 | INFO |  * Restarting with stat
+2025-12-15 21:44:54,503 | WARNING |  * Debugger is active!
+2025-12-15 21:44:54,510 | INFO |  * Debugger PIN: 855-374-315
+2025-12-15 21:46:59,061 | INFO | 192.168.29.226 - - [15/Dec/2025 21:46:59] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-15 21:46:59,536 | INFO | 192.168.29.226 - - [15/Dec/2025 21:46:59] "GET /login HTTP/1.1" 200 -
+2025-12-15 21:47:00,753 | INFO | 192.168.29.226 - - [15/Dec/2025 21:47:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-15 21:48:06,296 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.226:5000
+2025-12-15 21:48:06,296 | INFO | [33mPress CTRL+C to quit[0m
+2025-12-15 21:48:06,299 | INFO |  * Restarting with stat
+2025-12-15 21:48:06,530 | WARNING |  * Debugger is active!
+2025-12-15 21:48:06,537 | INFO |  * Debugger PIN: 855-374-315
+2025-12-15 21:48:09,307 | INFO | 192.168.29.226 - - [15/Dec/2025 21:48:09] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-15 21:48:09,448 | INFO | 192.168.29.226 - - [15/Dec/2025 21:48:09] "GET /login HTTP/1.1" 200 -
+2025-12-15 21:48:11,064 | INFO | 192.168.29.226 - - [15/Dec/2025 21:48:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-15 21:48:19,692 | INFO | 192.168.29.226 - - [15/Dec/2025 21:48:19] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-15 21:48:19,849 | INFO | 192.168.29.226 - - [15/Dec/2025 21:48:19] "GET / HTTP/1.1" 200 -
+2025-12-15 21:48:20,058 | INFO | 192.168.29.226 - - [15/Dec/2025 21:48:20] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-12-15 21:51:59,035 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.226:5000
+2025-12-15 21:51:59,035 | INFO | [33mPress CTRL+C to quit[0m
+2025-12-15 21:51:59,038 | INFO |  * Restarting with stat
+2025-12-15 21:51:59,269 | WARNING |  * Debugger is active!
+2025-12-15 21:51:59,275 | INFO |  * Debugger PIN: 855-374-315
