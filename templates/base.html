@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>{% block title %}Ragu Server{% endblock %}</title>
+    <title>{% block title %}Server{% endblock %}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
 
     <header>
-        <h1>Ragu's Server</h1>
+        <h1>Server</h1>
         {% if session.authenticated %}
         <nav>
             <span>👤 {{ session.username }}</span>
